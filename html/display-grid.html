@@ -12,7 +12,7 @@
             <h3>Grid Template Columns</h3>
                 <p class="code-block">
                     <pre>
-                        <code class="code-1">
+                        <code class="code-block-1">
                             .container-1 {
                                 border: 3px solid red;
                                 text-align: center;
@@ -457,8 +457,8 @@
                     }
 
                     .item-2-15 {
-                        grid-row-start: 1;
                         background: orange;
+                        grid-row-start: 1;
                       }
                 </code>
             </pre>
@@ -478,5 +478,198 @@
                 <div class="item item-12">Item 12</div>           
             </div>
     </section>
+<section>
+<h3>Grid Row End</h3>
+    <p class="code-block">
+        <pre>
+            <code class="code-16">
+                .container-16 {
+                    border: 3px solid red;
+                    text-align: center;
+                    margin: 10px;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: auto;
+                    gap: 5px;
+                }
+
+                .item-2-16 {
+                    background: orange;
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                    }
+            </code>
+        </pre>
+    </p>
+        <div class="container-16">
+            <div class="item item-1">Item 1</div>
+            <div class="item item-2-16">Item 2</div>
+            <div class="item item-3">Item 3</div>
+            <div class="item item-4">Item 4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">Item 6</div>
+            <div class="item item-7">Item 7</div>
+            <div class="item item-8">Item 8</div>
+            <div class="item item-9">Item 9</div>
+            <div class="item item-10">Item 10</div>
+            <div class="item item-11">Item 11</div>
+            <div class="item item-12">Item 12</div>           
+        </div>
+</section>
+<section>
+    <h3>Grid Column Start</h3>
+        <p class="code-block">
+            <pre>
+                <code class="code-17">
+                    .code-17 {
+                        background-color: #eee;
+                        border: 1px solid #999;
+                        display: block;
+                        margin-left: 50px;
+                        width: 420px;
+                        margin-top: 40px;
+                    }
+                    
+                    .item-2-17 {
+                    background: orange;
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                    grid-column-start: 2;
+                    }
+                </code>
+            </pre>
+        </p>
+            <div class="container-17">
+                <div class="item item-1">Item 1</div>
+                <div class="item item-2-17">Item 2</div>
+                <div class="item item-3">Item 3</div>
+                <div class="item item-4">Item 4</div>
+                <div class="item item-5">Item 5</div>
+                <div class="item item-6">Item 6</div>
+                <div class="item item-7">Item 7</div>
+                <div class="item item-8">Item 8</div>
+                <div class="item item-9">Item 9</div>
+                <div class="item item-10">Item 10</div>
+                <div class="item item-11">Item 11</div>
+                <div class="item item-12">Item 12</div>           
+            </div>
+</section>
+<section>
+    <h3>Grid Column End</h3>
+        <p class="code-block">
+            <pre>
+                <code class="code-18">
+                    .code-18 {
+                        background-color: #eee;
+                        border: 1px solid #999;
+                        display: block;
+                        margin-left: 50px;
+                        width: 420px;
+                        margin-top: 40px;
+                      }
+                      
+                    .item-2-18 {
+                    background: orange;
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                    grid-column-start: 2;
+                    grid-column-end: 4;
+                    }
+                </code>
+            </pre>
+        </p>
+            <div class="container-18">
+                <div class="item item-1">Item 1</div>
+                <div class="item item-2-18">Item 2</div>
+                <div class="item item-3">Item 3</div>
+                <div class="item item-4">Item 4</div>
+                <div class="item item-5">Item 5</div>
+                <div class="item item-6">Item 6</div>
+                <div class="item item-7">Item 7</div>
+                <div class="item item-8">Item 8</div>
+                <div class="item item-9">Item 9</div>
+                <div class="item item-10">Item 10</div>
+                <div class="item item-11">Item 11</div>
+                <div class="item item-12">Item 12</div>           
+            </div>
+</section>
+<section>
+    <h3>Grid Row, Grid Column Start / End</h3>
+        <p class="code-block">
+            <pre>
+                <code class="code-19">
+                    .code-19 {
+                        background-color: #eee;
+                        border: 1px solid #999;
+                        display: block;
+                        margin-left: 50px;
+                        width: 420px;
+                        margin-top: 40px;
+                      }
+                      
+                    .item-2-19 {
+                    background: orange;
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                    grid-column-start: 2;
+                    grid-column-end: 4;
+                    }
+                </code>
+            </pre>
+        </p>
+            <div class="container-19">
+                <div class="item item-1">Item 1</div>
+                <div class="item item-2-19">Item 2</div>
+                <div class="item item-3">Item 3</div>
+                <div class="item item-4">Item 4</div>
+                <div class="item item-5">Item 5</div>
+                <div class="item item-6">Item 6</div>
+                <div class="item item-7">Item 7</div>
+                <div class="item item-8">Item 8</div>
+                <div class="item item-9">Item 9</div>
+                <div class="item item-10">Item 10</div>
+                <div class="item item-11">Item 11</div>
+                <div class="item item-12">Item 12</div>           
+            </div>
+</section>
+<section>
+    <h3>Grid Row, Grid Column Start / End, Span</h3>
+        <p class="code-block">
+            <pre>
+                <code class="code-20">
+                    .code-20 {
+                        background-color: #eee;
+                        border: 1px solid #999;
+                        display: block;
+                        margin-left: 50px;
+                        width: 420px;
+                        margin-top: 40px;
+                      }
+                      
+                    .item-2-20 {
+                    background: orange;
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                    grid-column-start: 2;
+                    grid-column-end: 4;
+                    }
+                </code>
+            </pre>
+        </p>
+            <div class="container-19">
+                <div class="item item-1">Item 1</div>
+                <div class="item item-2-20">Item 2</div>
+                <div class="item item-3">Item 3</div>
+                <div class="item item-4">Item 4</div>
+                <div class="item item-5">Item 5</div>
+                <div class="item item-6">Item 6</div>
+                <div class="item item-7-20">Item 7</div>
+                <div class="item item-8">Item 8</div>
+                <div class="item item-9">Item 9</div>
+                <div class="item item-10">Item 10</div>
+                <div class="item item-11">Item 11</div>
+                <div class="item item-12">Item 12</div>           
+            </div>
+</section>
 </body>
 </html>
