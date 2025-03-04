@@ -1,4 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 2px solid black;
+}
+
+h3 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  margin-left: 50px;
+  width: 800px;
+  margin-top: 40px;
+}
+
+.container-1 {
+  border: 3px solid red;
+  text-align: center;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+
+.item {
+  /*border: 1px solid blue;*/
+  background: blue;
+  margin: 5px;
+}
+
+.container-2 {
+  border: 3px solid red;
+  text-align: center;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
 }
