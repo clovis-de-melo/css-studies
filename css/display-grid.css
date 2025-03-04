@@ -486,3 +486,137 @@ h3 {
 .item-4-21 {
   grid-area: i4;
 }
+
+.container-22 {
+  /* border: 3px solid red;
+  text-align: center;
+  margin: 10px; */
+  display: grid;
+  grid-template-areas: 
+  "i1 i1"
+  "i2 i3"
+  "i4 i4"
+  ;
+  height: 100vh;
+  width: 100vw;
+}
+
+.item-22 {
+  /*border: 1px solid blue;*/
+  background: rgb(115, 106, 207);
+  /* margin: 5px; */
+}
+
+.code-block-22 {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  margin-left: 50px;
+  width: 420px;
+  margin-top: 40px;
+}
+
+.item-1-22 {
+  grid-area: i1;
+  background: tomato;
+}
+
+.item-2-22 {
+  grid-area: i2;
+  background: yellow;
+}
+
+.item-3-22 {
+  grid-area: i3;
+  background: bisque;
+}
+
+.item-4-22 {
+  grid-area: i4;
+}
+
+.container-23 {
+  /* border: 3px solid red;
+  text-align: center;
+  margin: 10px; */
+  display: grid;
+  grid-template-areas: 
+  "i1 i1"
+  "i2 i3"
+  "i4 i4"
+  ;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: 50px 1fr 60px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.item-23 {
+  /*border: 1px solid blue;*/
+  background: rgb(115, 106, 207);
+  /* margin: 5px; */
+}
+
+.code-block-23 {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  margin-left: 50px;
+  width: 420px;
+  margin-top: 40px;
+}
+
+.item-1-23 {
+  grid-area: i1;
+  background: tomato;
+}
+
+.item-2-23 {
+  grid-area: i2;
+  background: yellow;
+}
+
+.item-3-23 {
+  grid-area: i3;
+  background: bisque;
+}
+
+.item-4-23 {
+  grid-area: i4;
+}
+
+.container-24 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(4, 200px);
+  justify-content: center;
+  align-items: center; /* the default is stretch */
+  gap: 20px; /* or grid-gap */
+  height: 100vh;
+  width: 100vw;
+  background: yellow; 
+}
+
+.item-24 {
+  background: deeppink;
+  height: 100px;
+  width: 100px;
+}
+
+.container-25 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(4, 200px);
+  justify-content: center;
+  align-items: center; /* the default is stretch */
+  align-content: end;
+  justify-items: end;
+  gap: 20px; /* or grid-gap */
+  height: 100vh;
+  width: 100vw;
+  background: yellow; 
+}
+
+.item-25 {
+  background: deeppink;
+}
