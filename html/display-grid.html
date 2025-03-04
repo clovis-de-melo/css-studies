@@ -7,128 +7,127 @@
     <link rel="stylesheet" href="/css/display-grid.css">
 </head>
 <body>
+    <section>
+        <h1>CSS Display Grid</h1>
+            <h3>Grid Template Columns</h3>
+                <p class="code-block">
+                    <pre>
+                        <code class="code-1">
+                            .container-1 {
+                                border: 3px solid red;
+                                text-align: center;
+                                margin: 10px;
+                                display: grid;
+                                grid-template-columns: 1fr; /* one fraction which means one column */
+                            }
+                        </code>
+                    </pre>
+                </p>
+                    <div class="container-1">
+                        <div class="item item-1">Item 1</div>
+                        <div class="item item-2">Item 2</div>
+                        <div class="item item-3">Item 3</div>
+                        <div class="item item-4">Item 4</div>
+                        <div class="item item-5">Item 5</div>
+                        <div class="item item-6">Item 6</div>
+                        <div class="item item-7">Item 7</div>
+                        <div class="item item-8">Item 8</div>
+                        <div class="item item-9">Item 9</div>
+                        <div class="item item-10">Item 10</div>
+                        <div class="item item-11">Item 11</div>
+                        <div class="item item-12">Item 12</div>        
+                    </div>
+    </section>
+    <section>
+        <p class="code-block">
+            <pre>
+                <code class="code-2">
+                    .container-2 {
+                        border: 3px solid red;
+                        text-align: center;
+                        margin: 10px;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr; /* two fractions which means two columns, having the same fraction */
+                        }
+                </code>
+            </pre>
+        </p>
+            <div class="container-2">
+                <div class="item item-1">Item 1</div>
+                <div class="item item-2">Item 2</div>
+                <div class="item item-3">Item 3</div>
+                <div class="item item-4">Item 4</div>
+                <div class="item item-5">Item 5</div>
+                <div class="item item-6">Item 6</div>
+                <div class="item item-7">Item 7</div>
+                <div class="item item-8">Item 8</div>
+                <div class="item item-9">Item 9</div>
+                <div class="item item-10">Item 10</div>
+                <div class="item item-11">Item 11</div>
+                <div class="item item-12">Item 12</div>        
+            </div>
+    </section>
    <section>
-    <h1>CSS Grid</h1>
-        <h3>Grid Template Columns</h3>
-            <p class="code-block">
-                <pre>
-                    <code class="code-1">
-                        .container-1 {
-                            border: 3px solid red;
-                            text-align: center;
-                            margin: 10px;
-                            display: grid;
-                            grid-template-columns: 1fr; /* one fraction which means one column */
-                          }
-                    </code>
-                </pre>
-            </p>
-                <div class="container-1">
-                    <div class="item item-1">Item 1</div>
-                    <div class="item item-2">Item 2</div>
-                    <div class="item item-3">Item 3</div>
-                    <div class="item item-4">Item 4</div>
-                    <div class="item item-5">Item 5</div>
-                    <div class="item item-6">Item 6</div>
-                    <div class="item item-7">Item 7</div>
-                    <div class="item item-8">Item 8</div>
-                    <div class="item item-9">Item 9</div>
-                    <div class="item item-10">Item 10</div>
-                    <div class="item item-11">Item 11</div>
-                    <div class="item item-12">Item 12</div>        
-                </div>
-   </section>
-   <section>
-            <p class="code-block">
-                <pre>
-                    <code class="code-2">
-                        .container-2 {
-                            border: 3px solid red;
-                            text-align: center;
-                            margin: 10px;
-                            display: grid;
-                            grid-template-columns: 1fr 1fr; /* two fractions which means two columns, having the same fraction */
-                          }
-                    </code>
-                </pre>
-            </p>
-                <div class="container-2">
-                    <div class="item item-1">Item 1</div>
-                    <div class="item item-2">Item 2</div>
-                    <div class="item item-3">Item 3</div>
-                    <div class="item item-4">Item 4</div>
-                    <div class="item item-5">Item 5</div>
-                    <div class="item item-6">Item 6</div>
-                    <div class="item item-7">Item 7</div>
-                    <div class="item item-8">Item 8</div>
-                    <div class="item item-9">Item 9</div>
-                    <div class="item item-10">Item 10</div>
-                    <div class="item item-11">Item 11</div>
-                    <div class="item item-12">Item 12</div>        
-                </div>
-   </section>
-   <section>
-    <p class="code-block">
-        <pre>
-            <code class="code-3">
-                .container-3 {
-                    border: 3px solid red;
-                    text-align: center;
-                    margin: 10px;
-                    display: grid;
-                    grid-template-columns: 1fr 1.5fr; /* two fractions which means two columns, having two different fractions */
-                  }
-            </code>
-        </pre>
-    </p>
-        <div class="container-3">
-            <div class="item item-1">Item 1</div>
-            <div class="item item-2">Item 2</div>
-            <div class="item item-3">Item 3</div>
-            <div class="item item-4">Item 4</div>
-            <div class="item item-5">Item 5</div>
-            <div class="item item-6">Item 6</div>
-            <div class="item item-7">Item 7</div>
-            <div class="item item-8">Item 8</div>
-            <div class="item item-9">Item 9</div>
-            <div class="item item-10">Item 10</div>
-            <div class="item item-11">Item 11</div>
-            <div class="item item-12">Item 12</div>        
-        </div>
+        <p class="code-block">
+            <pre>
+                <code class="code-3">
+                    .container-3 {
+                        border: 3px solid red;
+                        text-align: center;
+                        margin: 10px;
+                        display: grid;
+                        grid-template-columns: 1fr 1.5fr; /* two fractions which means two columns, having two different fractions */
+                    }
+                </code>
+            </pre>
+        </p>
+            <div class="container-3">
+                <div class="item item-1">Item 1</div>
+                <div class="item item-2">Item 2</div>
+                <div class="item item-3">Item 3</div>
+                <div class="item item-4">Item 4</div>
+                <div class="item item-5">Item 5</div>
+                <div class="item item-6">Item 6</div>
+                <div class="item item-7">Item 7</div>
+                <div class="item item-8">Item 8</div>
+                <div class="item item-9">Item 9</div>
+                <div class="item item-10">Item 10</div>
+                <div class="item item-11">Item 11</div>
+                <div class="item item-12">Item 12</div>        
+            </div>
 </section>
 <section>
     <h3>Grid Template Rows</h3>
-    <p class="code-block">
-        <pre>
-            <code class="code-4">
-                .container-4 {
-                    border: 3px solid red;
-                    text-align: center;
-                    margin: 10px;
-                    display: grid;
-                    grid-template-columns: 1fr 1.1fr; 
-                    grid-template-rows: auto 200px; /* first row auto, second row has 200px */
-                  }
-            </code>
-        </pre>
-    </p>
-        <div class="container-4">
-            <div class="item item-1">Item 1</div>
-            <div class="item item-2">Item 2</div>
-            <div class="item item-3">Item 3</div>
-            <div class="item item-4">Item 4</div>
-            <div class="item item-5">Item 5</div>
-            <div class="item item-6">Item 6</div>
-            <div class="item item-7">Item 7</div>
-            <div class="item item-8">Item 8</div>
-            <div class="item item-9">Item 9</div>
-            <div class="item item-10">Item 10</div>
-            <div class="item item-11">Item 11</div>
-            <div class="item item-12">Item 12</div>        
-        </div>
+        <p class="code-block">
+            <pre>
+                <code class="code-4">
+                    .container-4 {
+                        border: 3px solid red;
+                        text-align: center;
+                        margin: 10px;
+                        display: grid;
+                        grid-template-columns: 1fr 1.1fr; 
+                        grid-template-rows: auto 200px; /* first row auto, second row has 200px */
+                    }
+                </code>
+            </pre>
+        </p>
+            <div class="container-4">
+                <div class="item item-1">Item 1</div>
+                <div class="item item-2">Item 2</div>
+                <div class="item item-3">Item 3</div>
+                <div class="item item-4">Item 4</div>
+                <div class="item item-5">Item 5</div>
+                <div class="item item-6">Item 6</div>
+                <div class="item item-7">Item 7</div>
+                <div class="item item-8">Item 8</div>
+                <div class="item item-9">Item 9</div>
+                <div class="item item-10">Item 10</div>
+                <div class="item item-11">Item 11</div>
+                <div class="item item-12">Item 12</div>        
+            </div>
 </section>
 <section>
-    <h3>Grid Template Rows</mark></h3>
     <p class="code-block">
         <pre>
             <code class="code-5">
@@ -138,7 +137,7 @@
                     margin: 10px;
                     display: grid;
                     grid-template-columns: 1fr 1.1fr; 
-                    grid-template-rows: grid-template-rows: auto 50px 70px 80px 90px 100px; /* each row has its own settings */
+                    grid-template-rows: auto 50px 70px 80px 90px 100px; /* each row has its own settings */
                   }
             </code>
         </pre>
@@ -158,5 +157,102 @@
             <div class="item item-12">Item 12</div>        
         </div>
 </section>
+<section>
+<h3>Container´s padding</h3>
+    <p class="code-block">
+        <pre>
+            <code class="code-6">
+                .container-6 {
+                    border: 3px solid red;
+                    text-align: center;
+                    margin: 10px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: auto; 
+                    padding: 40px;
+                }
+            </code>
+        </pre>
+    </p>
+        <div class="container-6">
+            <div class="item item-1">Item 1</div>
+            <div class="item item-2">Item 2</div>
+            <div class="item item-3">Item 3</div>
+            <div class="item item-4">Item 4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">Item 6</div>
+            <div class="item item-7">Item 7</div>
+            <div class="item item-8">Item 8</div>
+            <div class="item item-9">Item 9</div>
+            <div class="item item-10">Item 10</div>
+            <div class="item item-11">Item 11</div>
+            <div class="item item-12">Item 12</div>        
+        </div>
+</section>
+<section>
+<h3>Container´s Row Gap</h3>
+    <p class="code-block">
+        <pre>
+            <code class="code-7">
+                .container-7 {
+                    border: 3px solid red;
+                    text-align: center;
+                    margin: 10px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: auto; 
+                    row-gap: 100px;
+                }
+            </code>
+        </pre>
+    </p>
+        <div class="container-7">
+            <div class="item item-1">Item 1</div>
+            <div class="item item-2">Item 2</div>
+            <div class="item item-3">Item 3</div>
+            <div class="item item-4">Item 4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">Item 6</div>
+            <div class="item item-7">Item 7</div>
+            <div class="item item-8">Item 8</div>
+            <div class="item item-9">Item 9</div>
+            <div class="item item-10">Item 10</div>
+            <div class="item item-11">Item 11</div>
+            <div class="item item-12">Item 12</div>        
+        </div>
+</section>
+<section>
+    <h3>Container´s Column Gap</h3>
+        <p class="code-block">
+            <pre>
+                <code class="code-8">
+                    .container-8 {
+                        border: 3px solid red;
+                        text-align: center;
+                        margin: 10px;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-rows: auto; 
+                        row-gap: 30px;
+                        column-gap: 300px;
+                    }
+                </code>
+            </pre>
+        </p>
+            <div class="container-8">
+                <div class="item item-1">Item 1</div>
+                <div class="item item-2">Item 2</div>
+                <div class="item item-3">Item 3</div>
+                <div class="item item-4">Item 4</div>
+                <div class="item item-5">Item 5</div>
+                <div class="item item-6">Item 6</div>
+                <div class="item item-7">Item 7</div>
+                <div class="item item-8">Item 8</div>
+                <div class="item item-9">Item 9</div>
+                <div class="item item-10">Item 10</div>
+                <div class="item item-11">Item 11</div>
+                <div class="item item-12">Item 12</div>        
+            </div>
+    </section>
 </body>
 </html>
