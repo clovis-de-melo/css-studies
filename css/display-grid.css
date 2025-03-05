@@ -20,12 +20,18 @@ h3 {
   font-size: 28px;
 }
 
+.item {
+  /*border: 1px solid blue;*/
+  background: rgb(115, 106, 207);
+  margin: 5px;
+}
+
 .container-1 {
   border: 3px solid red;
   text-align: center;
   margin: 10px;
   display: grid;
-  grid-template-columns: 1fr; 
+  grid-template-columns: 1fr; /* one fraction which will occupy the only one column */
 }
 
 .code-block-1 {
@@ -33,14 +39,8 @@ h3 {
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 800px;
+  width: 750px;
   margin-top: 40px;
-}
-
-.item {
-  /*border: 1px solid blue;*/
-  background: rgb(115, 106, 207);
-  margin: 5px;
 }
 
 .container-2 {
@@ -48,15 +48,15 @@ h3 {
   text-align: center;
   margin: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr; /* two fractions which means two columns, having the same fraction */
 }
 
-.code-2 {
+.code-block-2 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 850px;
   margin-top: 40px;
 }
 
@@ -65,15 +65,15 @@ h3 {
   text-align: center;
   margin: 10px;
   display: grid;
-  grid-template-columns: 1fr 1.5fr; 
+  grid-template-columns: 1fr 1.5fr; /* two fractions which means two columns, having two different fractions */
 }
 
-.code-3 {
+.code-block-3 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 880px;
   margin-top: 40px;
 }
 
@@ -83,15 +83,15 @@ h3 {
   margin: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 200px; 
+  grid-template-rows: auto 200px; /* first row auto, second row has 200px */
 }
 
-.code-4 {
+.code-block-4 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 650px;
   margin-top: 40px;
 }
 
@@ -104,12 +104,12 @@ h3 {
   grid-template-rows: auto 50px 70px 80px 90px 100px; 
 }
 
-.code-5 {
+.code-block-5 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 750px;
   margin-top: 40px;
 }
 
@@ -123,12 +123,12 @@ h3 {
   padding: 40px;
 }
 
-.code-6 {
+.code-block-6 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 340px;
   margin-top: 40px;
 }
 
@@ -142,12 +142,12 @@ h3 {
   row-gap: 100px;
 }
 
-.code-7 {
+.code-block-7 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 340px;
   margin-top: 40px;
 }
 
@@ -162,12 +162,12 @@ h3 {
   column-gap: 300px;
 }
 
-.code-8 {
+.code-block-8 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 350px;
   margin-top: 40px;
 }
 
@@ -181,12 +181,12 @@ h3 {
   gap: 30px 500px; 
 }
 
-.code-9 {
+.code-block-9 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 470px;
   margin-top: 40px;
 }
 
@@ -200,12 +200,12 @@ h3 {
   gap: 5px;
 }
 
-.code-10 {
+.code-block-10 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 1000px;
   margin-top: 40px;
 }
 
@@ -219,12 +219,12 @@ h3 {
   gap: 5px;
 }
 
-.code-11 {
+.code-block-11 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 405px;
   margin-top: 40px;
 }
 
@@ -238,12 +238,12 @@ h3 {
   gap: 5px;
 }
 
-.code-12 {
+.code-block-12 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 500px;
   margin-top: 40px;
 }
 
@@ -257,12 +257,12 @@ h3 {
   gap: 5px;
 }
 
-.code-13 {
+.code-block-13 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 500px;
   margin-top: 40px;
 }
 
@@ -276,12 +276,12 @@ h3 {
   gap: 5px;
 }
 
-.code-14 {
+.code-block-14 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 530px;
   margin-top: 40px;
 }
 
@@ -295,12 +295,12 @@ h3 {
   gap: 5px;
 }
 
-.code-15 {
+.code-block-15 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 1100px;
+  width: 390px;
   margin-top: 40px;
 }
 
@@ -319,12 +319,12 @@ h3 {
   gap: 5px;
 }
 
-.code-16 {
+.code-block-16 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 420px;
+  width: 380px;
   margin-top: 40px;
 }
 
@@ -344,12 +344,12 @@ h3 {
   gap: 5px;
 }
 
-.code-17 {
+.code-block-17 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 420px;
+  width: 380px;
   margin-top: 40px;
 }
 
@@ -370,12 +370,12 @@ h3 {
   gap: 5px;
 }
 
-.code-18 {
+.code-block-18 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 420px;
+  width: 380px;
   margin-top: 40px;
 }
 
@@ -397,12 +397,12 @@ h3 {
   gap: 5px;
 }
 
-.code-19 {
+.code-block-19 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 420px;
+  width: 380px;
   margin-top: 40px;
 }
 
@@ -422,12 +422,12 @@ h3 {
   gap: 5px;
 }
 
-.code-20 {
+.code-block-20 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 420px;
+  width: 525px;
   margin-top: 40px;
 }
 
@@ -467,7 +467,7 @@ h3 {
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 420px;
+  width: 340px;
   margin-top: 40px;
 }
 
@@ -488,9 +488,6 @@ h3 {
 }
 
 .container-22 {
-  /* border: 3px solid red;
-  text-align: center;
-  margin: 10px; */
   display: grid;
   grid-template-areas: 
   "i1 i1"
@@ -502,9 +499,8 @@ h3 {
 }
 
 .item-22 {
-  /*border: 1px solid blue;*/
   background: rgb(115, 106, 207);
-  /* margin: 5px; */
+  
 }
 
 .code-block-22 {
@@ -512,7 +508,7 @@ h3 {
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 420px;
+  width: 340px;
   margin-top: 40px;
 }
 
@@ -536,9 +532,6 @@ h3 {
 }
 
 .container-23 {
-  /* border: 3px solid red;
-  text-align: center;
-  margin: 10px; */
   display: grid;
   grid-template-areas: 
   "i1 i1"
@@ -552,9 +545,7 @@ h3 {
 }
 
 .item-23 {
-  /*border: 1px solid blue;*/
   background: rgb(115, 106, 207);
-  /* margin: 5px; */
 }
 
 .code-block-23 {
@@ -562,7 +553,7 @@ h3 {
   border: 1px solid #999;
   display: block;
   margin-left: 50px;
-  width: 420px;
+  width: 380px;
   margin-top: 40px;
 }
 
@@ -597,6 +588,15 @@ h3 {
   background: yellow; 
 }
 
+.code-block-24 {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  margin-left: 50px;
+  width: 450px;
+  margin-top: 40px;
+}
+
 .item-24 {
   background: deeppink;
   height: 100px;
@@ -624,4 +624,13 @@ h3 {
 .item-8-25 {
   align-self: end;
   justify-self: center;
+}
+
+.code-block-25 {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  margin-left: 50px;
+  width: 620px;
+  margin-top: 40px;
 }
