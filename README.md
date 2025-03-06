@@ -7,4 +7,8 @@ Feel free to fork this repository.
 
 `W3 Schools`
 
-[W3 Schools | CSS Tutorial](https://www.w3schools.com/css/default.asp)
+[CSS Tutorial | W3 Schools](https://www.w3schools.com/css/default.asp)
+
+`MDN Web Docs`
+
+[CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
