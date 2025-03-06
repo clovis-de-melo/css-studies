@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
+    /* background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3)); */
     position: relative;
     padding: 0 5%;
     display: flex;
@@ -27,8 +29,12 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo {
+/* nav .logo {
     width: 80px;
+} */
+
+nav ul {
+    text-transform: uppercase;
 }
 
 
@@ -41,7 +47,16 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 17px;
+    font-size: 15px;
+    opacity: 1.8;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 18px;
+    opacity: 1.8;
+    transform: 1.5px;
 }
 
 .content {
@@ -53,6 +68,7 @@ nav ul li a {
     color: #fff;
     font-weight: 600;
     transition: 0.5;
+    opacity: 3.5;
 }
 
 .content h1:hover {
@@ -64,7 +80,19 @@ nav ul li a {
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.content a:hover {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
     border: 2px solid #fff;
     padding: 14px 70px;
     border-radius: 50px;
@@ -77,6 +105,8 @@ nav ul li a {
     bottom: 0;
     z-index: -1;
 }
+
+
 
 @media (min-aspect-ratio: 16/9) {
     .background-video {
