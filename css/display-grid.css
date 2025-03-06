@@ -634,3 +634,28 @@ h3 {
   width: 620px;
   margin-top: 40px;
 }
+
+#test-section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background: #936e6e;
+}
+
+#test-section-heading {
+  padding: 40px;
+}
+
+#main-grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 20px;
+  justify-items: stretch;
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+}
+
+.square {
+  background: aqua;
+}
