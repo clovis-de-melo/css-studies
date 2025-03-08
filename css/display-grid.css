@@ -15,9 +15,10 @@ h1 {
 }
 
 h3 {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   text-align: center;
   font-size: 28px;
+  padding: 40px;
 }
 
 .item {
@@ -658,4 +659,47 @@ h3 {
 
 .square {
   background: aqua;
+}
+
+.test-section {
+  align-items: center;
+}
+
+#test-section-2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background: #645f5f;
+}
+
+#test-section-heading-2 {
+  padding: 40px;
+}
+
+#test-grid-box {
+  display: grid;
+  border: 1px solid red;
+  background-color: rgb(252, 252, 252);
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: 300px;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.test-square  {
+  background: blue;
+  align-content: center;
+  justify-content: center;
+}
+
+#test-cards {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #7e80ee;
 }

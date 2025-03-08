@@ -27,25 +27,27 @@ h1 {
     background-color: blue;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 200px 800px;
+    justify-items: center;
+    align-items: center;
 }    
 
 .box-1 {
     background: antiquewhite;
-    height: 400px;
+   /*  height: 400px;
     width: 600px;   
     padding: 90px;
     margin-top: 70px;
-    margin-left: 150px;
+    margin-left: 150px; */
 }
 
 .box-2 {
     background: rgb(86, 156, 82);
-    height: 400px;
+   /*  height: 400px;
     width: 600px;
     padding: 90px;
     margin-top: 70px;   
-    margin-left: 150px;
+    margin-left: 150px; */
 }
 
 .paragraph-1 {
