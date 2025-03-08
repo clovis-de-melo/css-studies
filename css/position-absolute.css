@@ -22,10 +22,14 @@ body {
     width: 150px;
     height: 150px;
     background-color: rgb(31, 8, 243);
+    opacity: 0.9;
 }
 
 .child-2 {
     width: 150px;
     height: 150px;
     background-color: rgb(226, 46, 46);
+    position: absolute;
+    opacity: 0.9;
+    bottom: 0;
 }
