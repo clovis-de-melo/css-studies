@@ -10,10 +10,9 @@ html {
 
 
 h1 {
-    background: red;
+   /*  background: red; */
     text-align: center;
     font-size: 50px;
-    margin-top: 30px;
 }
 
 .em-title {
