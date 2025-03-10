@@ -10,20 +10,32 @@
     <header> 
             <nav class="nav-bar">
                 <div class="logo">
-                    <a href="#"><img src="https://www.svgrepo.com/show/503183/barley-alt.svg" alt=""></a>
+                    <h1>Logo</h1>
                 </div>
                 <div class="nav-list">
                     <ul>
-                        <li><a href="#" class="nav-link">About</a></li>
-                        <li><a href="#" class="nav-link">Services</a></li>
-                        <li><a href="#" class="nav-link">Products</a></li>
-                        <li><a href="#" class="nav-link">Contact</a></li>
+                        <li><a class="nav-item" href="#" class="nav-link">About</a></li>
+                        <li><a class="nav-item" href="#" class="nav-link">Services</a></li>
+                        <li><a class="nav-item" href="#" class="nav-link">Products</a></li>
                     </ul>
                 </div>
                 <div class="cta-button">
-                    <button><a href="#">CTA</a></button>
+                    <button><a href="#">Learn more</a></button>
                 </div>
-            </nav> 
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="/src/svg/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li><a class="nav-item" href="#" class="nav-link">About</a></li>
+                    <li><a class="nav-item" href="#" class="nav-link">Services</a></li>
+                    <li><a class="nav-item" href="#" class="nav-link">Products</a></li>
+                </ul>
+                <div class="cta-button">
+                    <button><a href="#">Learn more</a></button>
+                </div>
+            </div> 
     </header>
     <!-- <section id="hero-image">
         <div class="content">
@@ -32,6 +44,16 @@
             <button>Send message</button>
         </div>
     </section> -->
+    <section id="container">
+        <div class="button-container">
+            <button onclick="hide('content')">Hide Content</button>
+            <button onclick="show('content')">Show Content</button>
+            <div id="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis recusandae nam ducimus tempore quasi sed itaque sint reprehenderit debitis molestiae repudiandae deleniti, facere dolorem? Voluptatibus, dolorem perferendis? Odio, animi.</p>
+            </div>
+        </div>
+        
+    </section>
 
 <script src="/javascript/nav-bar.js"></script>    
 </body>
