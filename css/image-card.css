@@ -53,6 +53,12 @@ body {
    /*  border-radius: 5px; */
 }
 
+.card-paragraph {
+    /* align-items: center; */
+    border: 1px solid red;
+    padding-left: 80px;
+}
+
 .card-2 {
     /* border: 1px solid red; */
     gap: 30px;
