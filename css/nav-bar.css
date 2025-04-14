@@ -158,3 +158,21 @@ header {
 /* #content p {
     display: none;
 } */
+
+#position {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.container-1 {
+    border: 1px solid white;
+    height: 300px;
+    width: 300px;
+}
+
+.container-2 {
+    border: 1px solid blue;
+}
