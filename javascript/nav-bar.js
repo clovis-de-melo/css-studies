@@ -27,3 +27,7 @@ function hide(el) {
 function show(el) {
     document.getElementById(el).style.display = "block";
 }
+
+function container() {
+    document.getElementById().style.position ="relative";
+}
