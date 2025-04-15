@@ -28,6 +28,14 @@ function show(el) {
     document.getElementById(el).style.display = "block";
 }
 
-function container() {
-    document.getElementById().style.position ="relative";
+//
+
+function changePosition() {
+    document.getElementById("container-1").style.position ="relative";
+    console.log("test function changePosition")
+}
+
+function closeBox() {
+    console.log("function closeBox it is working");
+    document.getElementById("container-1").style.position="absolute";
 }
