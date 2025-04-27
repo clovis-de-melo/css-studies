@@ -8,7 +8,7 @@ Feel free to fork this repository.
 * [What is CSS](#what-is-css.)
 * [How does CSS work?](#how-does-css-work)
 * [CSS Units](#css-units)
-* [@Rules At-Rules](#@Rules-(At-Rules))
+* [@Rules At-Rules](#at-rules))
 
 
 ## What is CSS?
@@ -78,7 +78,7 @@ Absolute length units are not recommended for use on screen, because screen size
 
 </details>
 
-## @Rules (At-Rules)
+## At-Rules
 
 <details>
 <summary>See At-Rules details</summary>
